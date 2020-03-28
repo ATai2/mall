@@ -1,0 +1,19 @@
+spring:
+#  profiles:
+#    active: dev #默认为开发环境
+#  servlet:
+#    multipart:
+#      enabled: true #开启文件上传
+#      max-file-size: 10MB #限制文件上传大小为10M
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mall?serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      #更新或创建数据库表结构
+      ddl-auto: update
+    #输出执行sql
+    show-sql: true
