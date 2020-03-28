@@ -189,3 +189,6 @@ mall项目全套学习教程连载中，关注公众号「**macrozheng**」第�
 [Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
 
 Copyright (c) 2018-2020 macrozheng
+
+
+-javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin\jetbrains-agent.jar
